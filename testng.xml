@@ -1,0 +1,13 @@
+
+<suite name="Test Suite" verbose="1">
+    <test name="Regression Tests">
+        <classes>
+            <class name="stepdefination.StepDefination"/>
+            <class name="com.example.TestRunner"/>
+            <class name="feature.galaxy.feature"/>
+         
+        </classes>
+    </test>
+    
+    
+</suite>

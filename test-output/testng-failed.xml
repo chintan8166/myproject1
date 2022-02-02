@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="stepdefination.StepDefination">
+        <methods>
+          <include name="confirm_product_is_added"/>
+          <include name="user_must_on_product_store_home_page_url"/>
+          <include name="click_on_log_in_button"/>
+          <include name="enter_username_password"/>
+          <include name="open_a_browser"/>
+          <include name="click_on_log_in"/>
+        </methods>
+      </class> <!-- stepdefination.StepDefination -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
