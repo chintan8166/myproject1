@@ -5,6 +5,7 @@
             <class name="stepdefination.StepDefination"/>
             <class name="com.example.TestRunner"/>
             <class name="feature.galaxy.feature"/>
+            <class name="feature.Walmart.feature"/>
          
         </classes>
     </test>

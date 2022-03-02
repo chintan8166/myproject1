@@ -18,7 +18,7 @@ import io.cucumber.testng.CucumberOptions;
   features="D:\\Training workspace\\Demo-PAroject\\src\\test\\java\\feature\\Demo.feature"
   , glue={"com.example"}, plugin= {"pretty",
   "json:target/HTmlreports2.json"},monochrome=true,dryRun=true,
-  tags="@tag and not  @tag1") public class TestRunner extends AbstractTestNGCucumberTests{
+  tags="@tag1") public class TestRunner extends AbstractTestNGCucumberTests{
   
   }
   
